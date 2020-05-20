@@ -1,12 +1,14 @@
 ---
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2020-01-20
 img0: tap0.png
 img: tap1.png
+img2: tap2.png
+img3: tap3.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: January 2020
+client: Personal Project
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: App to tag images with words either manually or using OCR to tag images with words. Ability to search past pictures saved to one's account. <br /> <br />Created with Angular 6, MySQL, Amazon S3, Django, Google Vision API
 ---
