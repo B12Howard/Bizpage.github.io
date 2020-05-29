@@ -4,11 +4,11 @@
   <generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-05-20T10:40:56-07:00</updated>
+  <updated>2020-05-29T14:51:42-07:00</updated>
   <id>http://localhost:4000/</id>
 
   
-    <title type="html">OBMWorks</title>
+    <title type="html">OBMWorkshop</title>
   
 
   
@@ -26,6 +26,40 @@
       <updated>2020-02-12T00:00:00-08:00</updated>
       <id>http://localhost:4000/web%20development/2020/02/12/google-apps-script-estimator</id>
       <content type="html" xml:base="http://localhost:4000/web%20development/2020/02/12/google-apps-script-estimator/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Tap Tag Tag</title>
+      <link href="http://localhost:4000/web%20development/2020/01/20/tap-tag-tag/" rel="alternate" type="text/html" title="Tap Tag Tag" />
+      <published>2020-01-20T00:00:00-08:00</published>
+      <updated>2020-01-20T00:00:00-08:00</updated>
+      <id>http://localhost:4000/web%20development/2020/01/20/tap-tag-tag</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2020/01/20/tap-tag-tag/"></content>
 
       
       
@@ -123,11 +157,11 @@
   
     <entry>
       <title type="html">Sales Data Parser</title>
-      <link href="http://localhost:4000/hanford%20rice%20bowl/2014/07/15/sales-data-parser/" rel="alternate" type="text/html" title="Sales Data Parser" />
-      <published>2014-07-15T00:00:00-07:00</published>
-      <updated>2014-07-15T00:00:00-07:00</updated>
-      <id>http://localhost:4000/hanford%20rice%20bowl/2014/07/15/sales-data-parser</id>
-      <content type="html" xml:base="http://localhost:4000/hanford%20rice%20bowl/2014/07/15/sales-data-parser/"></content>
+      <link href="http://localhost:4000/hanford%20rice%20bowl/2018/07/15/sales-data-parser/" rel="alternate" type="text/html" title="Sales Data Parser" />
+      <published>2018-07-15T00:00:00-07:00</published>
+      <updated>2018-07-15T00:00:00-07:00</updated>
+      <id>http://localhost:4000/hanford%20rice%20bowl/2018/07/15/sales-data-parser</id>
+      <content type="html" xml:base="http://localhost:4000/hanford%20rice%20bowl/2018/07/15/sales-data-parser/"></content>
 
       
       
@@ -143,74 +177,6 @@
 
       
         <category term="Hanford Rice Bowl" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Tap Tag Tag</title>
-      <link href="http://localhost:4000/web%20development/2014/07/14/tap-tag-tag/" rel="alternate" type="text/html" title="Tap Tag Tag" />
-      <published>2014-07-14T00:00:00-07:00</published>
-      <updated>2014-07-14T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/14/tap-tag-tag</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/14/tap-tag-tag/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Inventory App</title>
-      <link href="http://localhost:4000/web%20development/2014/07/14/inventory-app/" rel="alternate" type="text/html" title="Inventory App" />
-      <published>2014-07-14T00:00:00-07:00</published>
-      <updated>2014-07-14T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/14/inventory-app</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/14/inventory-app/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
       
 
       
