@@ -1,10 +1,10 @@
 # Site settings
-title: OBMWorkshop
+title: Howard Luong
 email: howard@obmworks.com
 url: https://example.github.io
-description: "Business website for OBMWorks"
+description: "Business website for Howard"
 keywords: "g suite, automation, google apps script, google sheets, google calendar, gmail, google forms"
-skills: "Office Automation - Business Automation - Making Sure It Works"
+skills: "G Suite Custom Functions - G Suite Automation - Web Apps"
 meta_author: Luong Howard
 
 # Google webmaster tools
@@ -32,8 +32,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: OBMWorks
-  location: Location
+  copyright: Howard Luong
+  location: Hanford, CA
   social: Around the Web
   credits: Credits
 
