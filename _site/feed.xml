@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator>
-  <link href="https://example.github.io/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://example.github.io/" rel="alternate" type="text/html" />
-  <updated>2020-09-24T01:13:59-07:00</updated>
-  <id>https://example.github.io/</id>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2020-09-30T00:24:29-07:00</updated>
+  <id>http://localhost:4000/</id>
 
   
     <title type="html">Howard Luong</title>
@@ -21,11 +21,11 @@
   
     <entry>
       <title type="html">Inventory App</title>
-      <link href="https://example.github.io/web%20development/2020/06/01/inventory-app/" rel="alternate" type="text/html" title="Inventory App" />
+      <link href="http://localhost:4000/web%20development/2020/06/01/inventory-app/" rel="alternate" type="text/html" title="Inventory App" />
       <published>2020-06-01T00:00:00-07:00</published>
       <updated>2020-06-01T00:00:00-07:00</updated>
-      <id>https://example.github.io/web%20development/2020/06/01/inventory-app</id>
-      <content type="html" xml:base="https://example.github.io/web%20development/2020/06/01/inventory-app/"></content>
+      <id>http://localhost:4000/web%20development/2020/06/01/inventory-app</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2020/06/01/inventory-app/"></content>
 
       
       
@@ -54,12 +54,12 @@
     </entry>
   
     <entry>
-      <title type="html">Google Apps Script Estimator</title>
-      <link href="https://example.github.io/web%20development/2020/02/12/google-apps-script-estimator/" rel="alternate" type="text/html" title="Google Apps Script Estimator" />
+      <title type="html">Google Apps Script Estimator Web App</title>
+      <link href="http://localhost:4000/web%20development/2020/02/12/google-apps-script-estimator-web-app/" rel="alternate" type="text/html" title="Google Apps Script Estimator Web App" />
       <published>2020-02-12T00:00:00-08:00</published>
       <updated>2020-02-12T00:00:00-08:00</updated>
-      <id>https://example.github.io/web%20development/2020/02/12/google-apps-script-estimator</id>
-      <content type="html" xml:base="https://example.github.io/web%20development/2020/02/12/google-apps-script-estimator/"></content>
+      <id>http://localhost:4000/web%20development/2020/02/12/google-apps-script-estimator-web-app</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2020/02/12/google-apps-script-estimator-web-app/"></content>
 
       
       
@@ -89,11 +89,11 @@
   
     <entry>
       <title type="html">Tap Tag Tag</title>
-      <link href="https://example.github.io/web%20development/2020/01/20/tap-tag-tag/" rel="alternate" type="text/html" title="Tap Tag Tag" />
+      <link href="http://localhost:4000/web%20development/2020/01/20/tap-tag-tag/" rel="alternate" type="text/html" title="Tap Tag Tag" />
       <published>2020-01-20T00:00:00-08:00</published>
       <updated>2020-01-20T00:00:00-08:00</updated>
-      <id>https://example.github.io/web%20development/2020/01/20/tap-tag-tag</id>
-      <content type="html" xml:base="https://example.github.io/web%20development/2020/01/20/tap-tag-tag/"></content>
+      <id>http://localhost:4000/web%20development/2020/01/20/tap-tag-tag</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2020/01/20/tap-tag-tag/"></content>
 
       
       
@@ -123,11 +123,11 @@
   
     <entry>
       <title type="html">Timecard App</title>
-      <link href="https://example.github.io/web%20development/2019/01/31/timecard-app/" rel="alternate" type="text/html" title="Timecard App" />
+      <link href="http://localhost:4000/web%20development/2019/01/31/timecard-app/" rel="alternate" type="text/html" title="Timecard App" />
       <published>2019-01-31T00:00:00-08:00</published>
       <updated>2019-01-31T00:00:00-08:00</updated>
-      <id>https://example.github.io/web%20development/2019/01/31/timecard-app</id>
-      <content type="html" xml:base="https://example.github.io/web%20development/2019/01/31/timecard-app/"></content>
+      <id>http://localhost:4000/web%20development/2019/01/31/timecard-app</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2019/01/31/timecard-app/"></content>
 
       
       
@@ -157,11 +157,11 @@
   
     <entry>
       <title type="html">Ordering Widget</title>
-      <link href="https://example.github.io/web%20development/2019/01/21/ordering-widget/" rel="alternate" type="text/html" title="Ordering Widget" />
+      <link href="http://localhost:4000/web%20development/2019/01/21/ordering-widget/" rel="alternate" type="text/html" title="Ordering Widget" />
       <published>2019-01-21T00:00:00-08:00</published>
       <updated>2019-01-21T00:00:00-08:00</updated>
-      <id>https://example.github.io/web%20development/2019/01/21/ordering-widget</id>
-      <content type="html" xml:base="https://example.github.io/web%20development/2019/01/21/ordering-widget/"></content>
+      <id>http://localhost:4000/web%20development/2019/01/21/ordering-widget</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2019/01/21/ordering-widget/"></content>
 
       
       
@@ -191,11 +191,11 @@
   
     <entry>
       <title type="html">Sales Data Parser</title>
-      <link href="https://example.github.io/hanford%20rice%20bowl/2018/07/15/sales-data-parser/" rel="alternate" type="text/html" title="Sales Data Parser" />
+      <link href="http://localhost:4000/hanford%20rice%20bowl/2018/07/15/sales-data-parser/" rel="alternate" type="text/html" title="Sales Data Parser" />
       <published>2018-07-15T00:00:00-07:00</published>
       <updated>2018-07-15T00:00:00-07:00</updated>
-      <id>https://example.github.io/hanford%20rice%20bowl/2018/07/15/sales-data-parser</id>
-      <content type="html" xml:base="https://example.github.io/hanford%20rice%20bowl/2018/07/15/sales-data-parser/"></content>
+      <id>http://localhost:4000/hanford%20rice%20bowl/2018/07/15/sales-data-parser</id>
+      <content type="html" xml:base="http://localhost:4000/hanford%20rice%20bowl/2018/07/15/sales-data-parser/"></content>
 
       
       
