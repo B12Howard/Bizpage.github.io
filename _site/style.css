@@ -207,11 +207,14 @@ section.success {
         height: calc(250vh) !important;
     }
     .full-height-offset-about {
-        height: calc(230vh);
+        height: calc(180vh);
 
     }
+    .full-height-offset-contact {
+        height: calc(110vh);
+    }
 }
-@media(min-width:360px) {
+@media(min-width:359px) {
     section {
         padding: 75px 0;
     }
@@ -223,8 +226,11 @@ section.success {
         height: calc(210vh) !important;
     }
     .full-height-offset-about {
-        height: calc(150vh);
+        height: calc(140vh);
 
+    }
+    .full-height-offset-contact {
+        height: calc(110vh);
     }
 }
 
@@ -240,8 +246,11 @@ section.success {
         height: calc(300vh) !important;
     }
     .full-height-offset-about {
-        height: calc(150vh);
+        height: calc(120vh);
 
+    }
+    .full-height-offset-contact {
+        height: calc(100vh);
     }
 }
 
@@ -255,10 +264,32 @@ section.success {
         padding-top: 75px;
     }
     .full-height-offset-portfolio {
-        height: calc(50vh) !important;
+        height: calc(80vh) !important;
+    }
+    .full-height-offset-about {
+        height: calc(160vh);
+    }
+    .full-height-offset-contact {
+        height: calc(90vh);
+    }
+}
+
+@media(min-width:900px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
+        height: calc(80vh) !important;
     }
     .full-height-offset-about {
         height: calc(120vh);
+    }
+    .full-height-offset-contact {
+        height: calc(90vh);
     }
 }
 
@@ -277,6 +308,9 @@ section.success {
     .full-height-offset-about {
         height: calc(100vh);
     }
+    .full-height-offset-contact {
+        height: calc(90vh);
+    }
 }
 
 @media(min-width:1000px) {
@@ -292,7 +326,10 @@ section.success {
     }
 
     .full-height-offset-about {
-        height: calc(120vh);
+        height: calc(100vh);
+    }
+    .full-height-offset-contact {
+        height: calc(90vh);
     }
 }
 
@@ -565,9 +602,7 @@ footer .footer-below {
     height: calc(80vh);
 }
 
-.full-height-offset-contact {
-    height: calc(80vh);
-}
+
 
 .center-verical {
     margin: 0;
@@ -629,6 +664,6 @@ hr.about {
 
     background-color: #BA4318;
   }
-.about-plus {
-    margin-bottom: 2rem;
-}  
+.about-toggle {
+    margin-bottom: 1rem;
+}
