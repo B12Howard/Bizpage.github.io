@@ -68,7 +68,7 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #BA4318;
 }
 
 hr.star-primary:after {
@@ -188,14 +188,104 @@ section.success {
     color: #232122;
     background: #{{ site.color.primary }};
 }
-
-@media(max-width:767px) {
+@media(min-width:170px) {
     section {
         padding: 75px 0;
     }
 
     section.first {
         padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
+        height: calc(250vh) !important;
+    }
+    .full-height-offset-about {
+        height: calc(230vh);
+
+    }
+}
+@media(min-width:360px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
+        height: calc(210vh) !important;
+    }
+    .full-height-offset-about {
+        height: calc(150vh);
+
+    }
+}
+
+@media(min-width:415px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
+        height: calc(300vh) !important;
+    }
+    .full-height-offset-about {
+        height: calc(150vh);
+
+    }
+}
+
+
+@media(min-width:750px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
+        height: calc(50vh) !important;
+    }
+    .full-height-offset-about {
+        height: calc(120vh);
+    }
+}
+
+@media(min-width:1000px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
+        height: calc(80vh) !important;
+    }
+
+    .full-height-offset-about {
+        height: calc(100vh);
+    }
+}
+
+@media(min-width:1000px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
+        height: calc(80vh) !important;
+    }
+
+    .full-height-offset-about {
+        height: calc(120vh);
     }
 }
 
@@ -216,7 +306,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba({{ site.color.third-rgb }},.95);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -234,7 +324,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #000;
+    color: #ffffff;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -254,6 +344,7 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+
 }
 
 .btn-outline {
@@ -459,3 +550,78 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.full-height {
+    height: 100vh;
+}
+.full-height-offset {
+    height: calc(80vh);
+}
+
+.full-height-offset-contact {
+    height: calc(80vh);
+}
+
+.center-verical {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.center-verical-about {
+    margin: 0;
+    position: absolute;
+    top: 223%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.center-verical-port {
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.button-color{
+    color: #BA4318;
+    background-color:#{{ site.color.primary }};
+}
+
+div.hidden
+{
+   display: none
+}
+.about-text {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left !important;
+    margin-bottom: 4rem;
+}
+.about-text-fade {
+    opacity: 0;
+    animation: fadeIn 3s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.about-subtitle {
+    margin-top: 2rem;
+}
+hr.about {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 70%;               
+    height: 2px;
+
+    background-color: #{{ site.color.third }};
+  }
+.about-plus {
+    margin-bottom: 2rem;
+}  

@@ -4,8 +4,8 @@ email: howard.luong87@gmail.com
 url: https://example.github.io
 description: "Business website for Howard"
 keywords: "g suite, automation, google apps script, google sheets, google calendar, gmail, google forms"
-skills: 'Your next "tech guy" • Experience working with non-profits, entrepreneurs, small businesses'
-skillss: "G Suite Automation and Add-ons  •  Web Apps  •  Automation Scripts  •  Zapier"
+skills: Experience working with non-profits, entrepreneurs, small businesses
+skillss: "G Suite Automation and Add-ons  •  Web Apps  •  Automation Scripts  •  Business Value Focused"
 meta_author: Luong Howard
 
 # Google webmaster tools
@@ -26,10 +26,12 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: E6DF44 #80B3FF
-  primary-rgb: "230,223,68" #"128,179,255"
+  primary: DDDEDE #80B3FF
+  primary-rgb: "221,222,222" #"128,179,255"
   secondary: 011A27 #FD6E8A
   secondary-dark: 011A27 #A2122F
+  third: BA4318
+  third-rgb: "191,69,25" #"128,179,255"
 
 # Footer settings
 footer:

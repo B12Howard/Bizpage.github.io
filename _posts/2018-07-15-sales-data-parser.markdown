@@ -8,5 +8,5 @@ alt: image-alt
 project-date: July 2018
 client: Start Bootstrap
 category: Hanford Rice Bowl
-description: Python script with pandas to clean data exported as plain text. Plain text documents were irregularly formatted and the script had to take into account the irregularities. Data was displayed on Google Data Studio and used to make business decisions.
+description: Python script with pandas and matplotlib to clean data exported as plain text. Plain text documents were irregularly formatted and the script had to take into account the irregularities. Data was displayed on Google Data Studio and used to make business decisions.
 ---
