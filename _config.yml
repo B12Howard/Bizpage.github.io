@@ -36,7 +36,7 @@ color:
 # Footer settings
 footer:
   copyright: Howard Luong
-  location: Hanford, CA
+  location: Location
   social: Around the Web
   credits: Credits
 
@@ -44,26 +44,17 @@ footer:
 social:
   - title: twitter
     url: https://twitter.com/WorkWithHoward
-  - title: upwork
+  - title: underline
     url: https://www.upwork.com/freelancers/~010c524c03b407c20b
   - title: github
     url: https://github.com/B12Howard
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Hanford, CA 93230
+  - line: California
 
 # Credits content
-credits: 'Theme created by  <a href="https://github.com/jeromelachaud">Jerome Lachaud</a>.
-<br />
-Icons made by 
- <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> , <a href="https://www.flaticon.com/authors/ddara" title="dDara">dDara</a> 
-, <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a>
-, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
-, <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a>
-, and <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a>
- from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-'
+credits: 'Theme created by  <a href="https://github.com/jeromelachaud">Jerome Lachaud</a>'
 
 # Build settings
 markdown: kramdown
