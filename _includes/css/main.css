@@ -197,6 +197,26 @@ section.success {
         padding-top: 75px;
     }
     .full-height-offset-portfolio {
+        height: calc(170vh) !important;
+    }
+    .full-height-offset-about {
+        height: calc(120vh);
+
+    }
+    .full-height-offset-contact {
+        height: calc(100vh);
+    }
+}
+
+@media(min-width:300px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .full-height-offset-portfolio {
         height: calc(250vh) !important;
     }
     .full-height-offset-about {
@@ -204,9 +224,10 @@ section.success {
 
     }
     .full-height-offset-contact {
-        height: calc(110vh);
+        height: calc(100vh);
     }
 }
+
 @media(min-width:359px) {
     section {
         padding: 75px 0;
@@ -216,7 +237,7 @@ section.success {
         padding-top: 75px;
     }
     .full-height-offset-portfolio {
-        height: calc(210vh) !important;
+        height: calc(250vh) !important;
     }
     .full-height-offset-about {
         height: calc(140vh);
@@ -236,10 +257,10 @@ section.success {
         padding-top: 75px;
     }
     .full-height-offset-portfolio {
-        height: calc(300vh) !important;
+        height: calc(240vh) !important;
     }
     .full-height-offset-about {
-        height: calc(120vh);
+        height: calc(100vh);
 
     }
     .full-height-offset-contact {
@@ -260,7 +281,7 @@ section.success {
         height: calc(80vh) !important;
     }
     .full-height-offset-about {
-        height: calc(160vh);
+        height: calc(100vh);
     }
     .full-height-offset-contact {
         height: calc(90vh);
@@ -295,18 +316,18 @@ section.success {
         padding-top: 75px;
     }
     .full-height-offset-portfolio {
-        height: calc(80vh) !important;
+        height: calc(85vh) !important;
     }
 
     .full-height-offset-about {
-        height: calc(100vh);
+        height: calc(90vh);
     }
     .full-height-offset-contact {
         height: calc(90vh);
     }
 }
 
-@media(min-width:1000px) {
+@media(min-width:1300px) {
     section {
         padding: 75px 0;
     }
@@ -315,11 +336,11 @@ section.success {
         padding-top: 75px;
     }
     .full-height-offset-portfolio {
-        height: calc(80vh) !important;
+        height: calc(85vh) !important;
     }
 
     .full-height-offset-about {
-        height: calc(100vh);
+        height: calc(90vh);
     }
     .full-height-offset-contact {
         height: calc(90vh);
