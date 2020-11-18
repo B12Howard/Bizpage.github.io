@@ -228,7 +228,7 @@ section.success {
     }
 }
 
-@media(min-width:359px) {
+@media(min-width:339px) {
     section {
         padding: 75px 0;
     }
