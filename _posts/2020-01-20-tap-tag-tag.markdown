@@ -10,5 +10,5 @@ alt: image-alt
 project-date: January 2020
 client: Personal Project
 category: Web Development
-description: App to tag images with words either manually or using OCR to tag images with words. Ability to search past pictures saved to one's account. <br /> <br />Created with Angular 6, MySQL, Amazon S3, Django, Google Vision API
+description: Web app to tag images with words either manually or using OCR. Files can be from your phone camera or an image upload. Ability to search past pictures saved to one's account. <br /> <br />Created with Angular 6, MySQL, Amazon S3, Django, Google Vision API
 ---

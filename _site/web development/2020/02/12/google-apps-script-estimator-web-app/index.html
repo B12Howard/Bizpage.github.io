@@ -72,7 +72,7 @@
     <!-- Header -->
 <header>
   <div class="container full-height">
-    <div class="row center-verical">
+    <div class="row center-verical skewed-bg">
       <div class="col-lg-12">
         <img
           class="img-responsive img-centered-profile"
@@ -93,8 +93,9 @@
 
     <!-- Portfolio Grid Section -->
 <section id="portfolio">
-  <div class="container full-height-offset-portfolio">
-    <div class="row ">
+  <hr />
+  <div class="container full-height-offset-portfolio portfolio-bg">
+    <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Portfolio</h2>
         <hr class="star-primary" />
@@ -228,6 +229,7 @@
 
     <!-- About Section -->
 <section class="success" id="about">
+  <hr />
   <div class="container full-height-offset-about" id="about-container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -308,16 +310,13 @@
     
     <!-- Contact Section -->
 <section id="contact">
+  <hr />
   <div class="container full-height-offset-contact">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Contact Me</h2>
-        <h4>
-          If you have any questions or looking for help
-        </h4>
-        <h4>
-          with a project let me know and we can schedule a chat!
-        </h4>
+        <h4>If you have any questions or looking for help</h4>
+        <h4>with a project let me know and we can schedule a chat!</h4>
         <hr class="star-primary" />
       </div>
     </div>
@@ -338,7 +337,7 @@
               <input
                 type="text"
                 name="name"
-                class="form-control"
+                class="form-control form-control-color"
                 placeholder="Name"
                 id="name"
                 required
@@ -355,7 +354,7 @@
               <input
                 type="email"
                 name="_replyto"
-                class="form-control"
+                class="form-control form-control-color"
                 placeholder="Email Address"
                 id="email"
                 required
@@ -366,7 +365,7 @@
           </div>
           <div>
             <input type="hidden" name="_subject" value="New submission!" />
-            <input type="text" name="_gotcha" style="display:none" />
+            <input type="text" name="_gotcha" style="display: none" />
           </div>
           <div class="row control-group">
             <div
@@ -376,7 +375,7 @@
               <textarea
                 rows="5"
                 name="message"
-                class="form-control"
+                class="form-control form-control-color"
                 placeholder="Message"
                 id="message"
                 required
@@ -402,403 +401,484 @@
 
     
 
-        <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>
-                            
-                                California <br>
-		                    
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            
-                            <li>
-                                <a href="https://twitter.com/WorkWithHoward" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="https://www.upwork.com/freelancers/~010c524c03b407c20b" class="btn-social btn-outline"><i class="fa fa-fw fa-underline"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="https://github.com/B12Howard" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-		                    
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Credits</h3>
-                        <p class="small">Theme created by  <a href="https://github.com/jeromelachaud">Jerome Lachaud</a></p>
-                    </div>
-                </div>
-            </div>
+    <!-- Footer -->
+<footer class="text-center">
+  <hr />
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <h3>Location</h3>
+          <p>
+             California <br />
+            
+          </p>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Howard Luong 2020
-                    </div>
-                </div>
-            </div>
+        <div class="footer-col col-md-4">
+          <h3>Around the Web</h3>
+          <ul class="list-inline">
+            
+            <li>
+              <a href="https://twitter.com/WorkWithHoward" class="btn-social btn-outline"
+                ><i class="fa fa-fw fa-twitter"></i
+              ></a>
+            </li>
+            
+            <li>
+              <a href="https://www.upwork.com/freelancers/~010c524c03b407c20b" class="btn-social btn-outline"
+                ><i class="fa fa-fw fa-underline"></i
+              ></a>
+            </li>
+            
+            <li>
+              <a href="https://github.com/B12Howard" class="btn-social btn-outline"
+                ><i class="fa fa-fw fa-github"></i
+              ></a>
+            </li>
+            
+          </ul>
         </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+        <div class="footer-col col-md-4">
+          <h3>Credits</h3>
+          <p class="small">Theme created by  <a href="https://github.com/jeromelachaud">Jerome Lachaud</a></p>
+        </div>
+      </div>
     </div>
-
-     <!-- Portfolio Modals -->
- 
-    <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Google Sheets Sidebar</h2>
-                            <hr class="star-primary">
-
-                            
-                                <p>Google Sheets sidebar which helped automate their estimate spreadsheet by pulling in all their data into one easy to use tool. Code in the background calculates prices, arranges items on the spreadsheet according to the day, searches for vacant accommodations.</p>
-                            
-
-                            <ul class="list-inline item-details">
-                                
-                                    <li>Client:
-                                        <strong>Connected Montreal
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Date:
-                                        <strong>October 2020
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Service:
-                                        <strong>Web Development
-                                        </strong>
-                                    </li>
-                                
-                            </ul>
-
-                             
-                            <img src="img/portfolio/timecard1.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            <img src="img/portfolio/timecard2.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          Copyright &copy; Howard Luong 2020
         </div>
+      </div>
     </div>
+  </div>
+</footer>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Filtpod</h2>
-                            <hr class="star-primary">
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visible-sm">
+  <a class="btn btn-primary" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
 
-                            
-                                <p>Consumer app for a client that allows paying members to log in and perform a specified activity. Data is stored in MySQL. Hosted by Firebase and PythonAnywhere. React Frontend and Django/ Django Rest Framework server. Cron tasks peformed by Google Cloud Scheduler</p>
-                            
+    <!-- Portfolio Modals -->
 
-                            <ul class="list-inline item-details">
-                                
-                                    <li>Client:
-                                        <strong>TBD
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Date:
-                                        <strong>Sept 2020
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Service:
-                                        <strong>Web Development
-                                        </strong>
-                                    </li>
-                                
-                            </ul>
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-3"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Google Sheets Sidebar</h2>
+            <hr class="star-primary" />
 
-                             
-                            <img src="img/portfolio/inventory1.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            <img src="img/portfolio/inventory2.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            <p>Google Sheets sidebar which helped automate their estimate spreadsheet by pulling in all their data into one easy to use tool. Code in the background calculates prices, arranges items on the spreadsheet according to the day, searches for vacant accommodations.</p>
+            
+
+            <ul class="list-inline item-details">
+              
+              <li>
+                Client:
+                <strong>Connected Montreal </strong>
+              </li>
+               
+              <li>
+                Date:
+                <strong>October 2020 </strong>
+              </li>
+               
+              <li>
+                Service:
+                <strong>Web Development </strong>
+              </li>
+              
+            </ul>
+
+            
+            <img
+              src="img/portfolio/timecard1.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+            <img
+              src="img/portfolio/timecard2.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              <i class="fa fa-times"></i> Close
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Google Apps Script Estimator Web App</h2>
-                            <hr class="star-primary">
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-6"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Filtpod</h2>
+            <hr class="star-primary" />
 
-                            
-                                <p>Google Apps Script web app for employees to create estimates using an existing spreadsheet. Created to address the issues of employees creating copies of the spreadsheet and employees breaking the spreadsheet. <br /> <br />Created with React, Google Apps Script,  Google Sheets</p>
-                            
+            
+            <p>Consumer app for a client that allows paying members to log in and perform a specified activity. Data is stored in MySQL. Hosted by Firebase and PythonAnywhere. React Frontend and Django/ Django Rest Framework server. Cron tasks peformed by Google Cloud Scheduler</p>
+            
 
-                            <ul class="list-inline item-details">
-                                
-                                    <li>Client:
-                                        <strong>Ardmor Inc.
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Date:
-                                        <strong>February 2020
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Service:
-                                        <strong>Web Development
-                                        </strong>
-                                    </li>
-                                
-                            </ul>
+            <ul class="list-inline item-details">
+              
+              <li>
+                Client:
+                <strong>TBD </strong>
+              </li>
+               
+              <li>
+                Date:
+                <strong>Sept 2020 </strong>
+              </li>
+               
+              <li>
+                Service:
+                <strong>Web Development </strong>
+              </li>
+              
+            </ul>
 
-                             
-                            <img src="img/portfolio/ard1.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            <img src="img/portfolio/ard2.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            <img src="img/portfolio/ard3.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            <img
+              src="img/portfolio/inventory1.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+            <img
+              src="img/portfolio/inventory2.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              <i class="fa fa-times"></i> Close
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Tap Tag Tag</h2>
-                            <hr class="star-primary">
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-2"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Google Apps Script Estimator Web App</h2>
+            <hr class="star-primary" />
 
-                            
-                                <p>App to tag images with words either manually or using OCR to tag images with words. Ability to search past pictures saved to one's account. <br /> <br />Created with Angular 6, MySQL, Amazon S3, Django, Google Vision API</p>
-                            
+            
+            <p>Google Apps Script web app for employees to create estimates using an existing spreadsheet. Created to address the issues of employees creating copies of the spreadsheet and employees breaking the spreadsheet. <br /> <br />Created with React, Google Apps Script,  Google Sheets</p>
+            
 
-                            <ul class="list-inline item-details">
-                                
-                                    <li>Client:
-                                        <strong>Personal Project
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Date:
-                                        <strong>January 2020
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Service:
-                                        <strong>Web Development
-                                        </strong>
-                                    </li>
-                                
-                            </ul>
+            <ul class="list-inline item-details">
+              
+              <li>
+                Client:
+                <strong>Ardmor Inc. </strong>
+              </li>
+               
+              <li>
+                Date:
+                <strong>February 2020 </strong>
+              </li>
+               
+              <li>
+                Service:
+                <strong>Web Development </strong>
+              </li>
+              
+            </ul>
 
-                             
-                            <img src="img/portfolio/tap1.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            <img src="img/portfolio/tap2.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                            <img src="img/portfolio/tap3.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            <img
+              src="img/portfolio/ard1.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+            <img
+              src="img/portfolio/ard2.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+            <img
+              src="img/portfolio/ard3.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+            
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              <i class="fa fa-times"></i> Close
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Ordering Widget</h2>
-                            <hr class="star-primary">
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-5"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Tap Tag Tag</h2>
+            <hr class="star-primary" />
 
-                            
-                                <p>Systematized the ordering of party trays where originally prices were made up on the spot. Helps customers plan party trays per person rather than calling in and receiving vague answers. Embedded into their business website. <br /> <br />Created with Angular 6, Firebase, Firebase Real Time Database, Invoices sent via Send Grid email API, Angular Material for styling</p>
-                            
+            
+            <p>Web app to tag images with words either manually or using OCR. Files can be from your phone camera or an image upload. Ability to search past pictures saved to one's account. <br /> <br />Created with Angular 6, MySQL, Amazon S3, Django, Google Vision API</p>
+            
 
-                            <ul class="list-inline item-details">
-                                
-                                    <li>Client:
-                                        <strong>Hanford Rice Bowl
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Date:
-                                        <strong>January 2019
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Service:
-                                        <strong>Web Development
-                                        </strong>
-                                    </li>
-                                
-                            </ul>
+            <ul class="list-inline item-details">
+              
+              <li>
+                Client:
+                <strong>Personal Project </strong>
+              </li>
+               
+              <li>
+                Date:
+                <strong>January 2020 </strong>
+              </li>
+               
+              <li>
+                Service:
+                <strong>Web Development </strong>
+              </li>
+              
+            </ul>
 
-                             
-                            <img src="img/portfolio/rbwidge1.png" class="img-responsive img-centered" alt="Screnshot">
-                            
-                             
-                            <img src="img/portfolio/rbwidge2.png" class="img-responsive img-centered" alt="Screnshot">
-                            
-                             
-                            <img src="img/portfolio/rbwidge3.png" class="img-responsive img-centered" alt="Screnshot">
-                            
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            <img
+              src="img/portfolio/tap1.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+            <img
+              src="img/portfolio/tap2.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+             
+            <img
+              src="img/portfolio/tap3.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+            
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              <i class="fa fa-times"></i> Close
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Sales Data Parser</h2>
-                            <hr class="star-primary">
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-1"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Ordering Widget</h2>
+            <hr class="star-primary" />
 
-                            
-                                <p>Python script with pandas and matplotlib to clean data exported as plain text. Plain text documents were irregularly formatted and the script had to take into account the irregularities. Data was displayed on Google Data Studio and used to make business decisions.</p>
-                            
+            
+            <p>Widget embedded into a business' website to help customers plan and order party trays.  <br /> <br />Created with Angular 6, Firebase, Firebase Real Time Database, Invoices sent via Send Grid email API, Angular Material for styling</p>
+            
 
-                            <ul class="list-inline item-details">
-                                
-                                    <li>Client:
-                                        <strong>Start Bootstrap
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Date:
-                                        <strong>July 2018
-                                        </strong>
-                                    </li>
-                                
-                                
-                                    <li>Service:
-                                        <strong>Hanford Rice Bowl
-                                        </strong>
-                                    </li>
-                                
-                            </ul>
+            <ul class="list-inline item-details">
+              
+              <li>
+                Client:
+                <strong>Hanford Rice Bowl </strong>
+              </li>
+               
+              <li>
+                Date:
+                <strong>January 2019 </strong>
+              </li>
+               
+              <li>
+                Service:
+                <strong>Web Development </strong>
+              </li>
+              
+            </ul>
 
-                             
-                            <img src="img/portfolio/py1.png" class="img-responsive img-centered" alt="image-alt">
-                            
-                             
-                             
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            <img
+              src="img/portfolio/rbwidge1.png"
+              class="img-responsive img-centered"
+              alt="Screnshot"
+            />
+             
+            <img
+              src="img/portfolio/rbwidge2.png"
+              class="img-responsive img-centered"
+              alt="Screnshot"
+            />
+             
+            <img
+              src="img/portfolio/rbwidge3.png"
+              class="img-responsive img-centered"
+              alt="Screnshot"
+            />
+            
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              <i class="fa fa-times"></i> Close
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
+
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-4"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Sales Data Parser</h2>
+            <hr class="star-primary" />
+
+            
+            <p>Python script with pandas and matplotlib to clean data exported as plain text. Plain text documents were irregularly formatted and the script had to take into account the irregularities. Data was displayed on Google Data Studio and used to make business decisions.</p>
+            
+
+            <ul class="list-inline item-details">
+              
+              <li>
+                Client:
+                <strong>Start Bootstrap </strong>
+              </li>
+               
+              <li>
+                Date:
+                <strong>July 2018 </strong>
+              </li>
+               
+              <li>
+                Service:
+                <strong>Hanford Rice Bowl </strong>
+              </li>
+              
+            </ul>
+
+            
+            <img
+              src="img/portfolio/py1.png"
+              class="img-responsive img-centered"
+              alt="image-alt"
+            />
+              
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              <i class="fa fa-times"></i> Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
      <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>

@@ -6,6 +6,8 @@
 
 body {
     overflow-x: hidden;
+    background:  #{{site.color.secondary}};
+  color: #{{site.color.primary}};
 }
 
 p {
@@ -84,10 +86,11 @@ hr.star-primary:after {
     max-width: 15% !important;
 }
 
+
 header {
     text-align: center;
-    color: #232122;
-    background: #{{ site.color.primary }};
+    color: #{{site.color.primary}};
+
 }
 
 header .container {
@@ -185,9 +188,10 @@ section h2 {
 }
 
 section.success {
-    color: #232122;
-    background: #{{ site.color.primary }};
+    background: #{{site.color.secondary}};
+  color: #{{site.color.primary}};
 }
+
 @media(min-width:170px) {
     section {
         padding: 75px 0;
@@ -346,10 +350,22 @@ section.success {
         height: calc(90vh);
     }
 }
+.form-control-color {
+    background: #{{site.color.secondary}} !important;
+    color: #{{site.color.primary}};
+
+}
+.portfolio-bg {
+    background: #{{site.color.secondary}} !important;
+    color: #{{site.color.primary}};
+}
 
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    background: #{{site.color.secondary}};
+    color: #{{site.color.primary}};
+    
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -357,6 +373,7 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -364,7 +381,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.third-rgb }},.95);
+    background: rgba({{ site.color.third-rgb }},.99);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -372,6 +389,7 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -396,11 +414,13 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+    
 }
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+        
     }
 
 }
@@ -548,6 +568,8 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background: #{{site.color.secondary}};
+    color: #{{site.color.primary}};
 }
 
 .portfolio-modal .modal-content h2 {
@@ -574,7 +596,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    opacity: .9;
 }
 
 .portfolio-modal .close-modal .lr {
@@ -582,7 +604,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.third }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -592,7 +614,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.third }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

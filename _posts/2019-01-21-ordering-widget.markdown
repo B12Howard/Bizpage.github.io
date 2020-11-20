@@ -10,5 +10,5 @@ alt: Screnshot
 project-date: January 2019
 client: Hanford Rice Bowl
 category: Web Development
-description: Systematized the ordering of party trays where originally prices were made up on the spot. Helps customers plan party trays per person rather than calling in and receiving vague answers. Embedded into their business website. <br /> <br />Created with Angular 6, Firebase, Firebase Real Time Database, Invoices sent via Send Grid email API, Angular Material for styling
+description: Widget embedded into a business' website to help customers plan and order party trays.  <br /> <br />Created with Angular 6, Firebase, Firebase Real Time Database, Invoices sent via Send Grid email API, Angular Material for styling
 ---
