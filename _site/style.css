@@ -251,7 +251,7 @@ section.success {
         height: calc(250vh) !important;
     }
     .full-height-offset-about {
-        height: calc(160vh);
+        height: calc(140vh);
 
     }
     .full-height-offset-contact {
@@ -292,7 +292,7 @@ section.success {
         height: calc(80vh) !important;
     }
     .full-height-offset-about {
-        height: calc(100vh);
+        height: calc(70vh);
     }
     .full-height-offset-contact {
         height: calc(90vh);
