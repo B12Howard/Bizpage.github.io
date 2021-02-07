@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2021-01-21
-img0: member4.png
+img0: member1.png
 img: member2.png
 img2: member3.png
-img3: member1.png
+img3: member4.png
 alt: Screenshot
 project-date: January 2021
 client: Private Political Committee
