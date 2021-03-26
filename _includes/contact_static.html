@@ -5,24 +5,14 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Contact Me</h2>
-        <h4>If you have any questions or looking for help</h4>
-        <h4>with a project let me know and we can schedule a chat!</h4>
         <hr class="star-primary" />
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <form
-          action="//formspree.io/{{ site.email }}"
-          method="POST"
-          name="sentMessage"
-          id="contactForm"
-          novalidate
-        >
+        <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm" novalidate>
           <div class="row control-group">
-            <div
-              class="form-group col-xs-12 floating-label-form-group controls"
-            >
+            <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="name">Name</label>
               <input
                 type="text"
@@ -37,9 +27,7 @@
             </div>
           </div>
           <div class="row control-group">
-            <div
-              class="form-group col-xs-12 floating-label-form-group controls"
-            >
+            <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="email">Email Address</label>
               <input
                 type="email"
@@ -58,9 +46,7 @@
             <input type="text" name="_gotcha" style="display: none" />
           </div>
           <div class="row control-group">
-            <div
-              class="form-group col-xs-12 floating-label-form-group controls"
-            >
+            <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="message">Message</label>
               <textarea
                 rows="5"
@@ -78,9 +64,7 @@
           <div id="success"></div>
           <div class="row">
             <div class="form-group col-xs-12">
-              <button type="submit" class="btn btn-success btn-lg button-color">
-                Send
-              </button>
+              <button type="submit" class="btn btn-success btn-lg button-color">Send</button>
             </div>
           </div>
         </form>
