@@ -25,6 +25,16 @@ a:focus {
 	outline: none;
 }
 
+.btn-social:hover {
+	transition: all 0.3s ease-in-out;
+	opacity: 0.7;
+}
+
+.review-image:hover {
+	transition: all 0.3s ease-in-out;
+	filter: brightness(85%);
+}
+
 .container-fluid { 
 	padding-left: 0; 
 	padding-right: 0;
