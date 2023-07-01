@@ -27,7 +27,7 @@
   height: 100%;
   left: 0;
   top: 0;
-  padding: 0 8px;
+  padding: 18px 8px;
   box-sizing: border-box; }
 
 .mfp-container:before {
@@ -267,7 +267,8 @@ img.mfp-img {
     height: auto;
     z-index: -1;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: #444; }
+    /* background: #444;  */
+  }
   .mfp-figure small {
     color: #BDBDBD;
     display: block;
