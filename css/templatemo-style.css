@@ -68,7 +68,7 @@ p {
 
 .tm-site-title { 
 	/* border: 2px solid #888481; */
-	color: #676362;
+	color: #983333;
 	display: inline-block;
 	font-size: 3rem; 
 	/* padding: 30px 40px; */
@@ -294,4 +294,9 @@ p {
 		margin-right: 0;
 		margin-bottom: 30px;
 	}
+}
+
+img.client-logos {
+	max-height: 4em;
+	width: auto;
 }
