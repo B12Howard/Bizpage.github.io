@@ -61,6 +61,13 @@ p {
     margin-bottom: 2rem;	
 }
 
+.tm-section-title-bright {
+	font-size: 2.6rem;
+    margin-bottom: 2rem;	
+	color: #fdf336;
+	
+}
+
 .tm-site-title-wrap {
 	padding-top: 80px;
 	padding-bottom: 100px;
@@ -89,12 +96,17 @@ p {
 .tm-textbox-full-height { min-height: 950px; }
 
 .tm-white-bg {
-	background-color: white;
+	background-color: rgba(255,255,255,0.97);
 	color: #676362;
 }
 
-.tm-translucent-white-bg { background-color: rgba(255,255,255,0.58); }
-.tm-translucent-white-bg-2 { background-color: rgba(255,255,255,0.94); }
+.tm-white-bg-light {
+	background-color: rgba(255,255,255,0.87);
+	color: #363433;
+}
+
+.tm-translucent-white-bg { background-color: rgba(255,255,255,0.98); }
+.tm-translucent-white-bg-2 { background-color: rgba(255,255,255,0.98); }
 
 .tm-btn,.tm-btn:visited {
 	display: block;
@@ -312,4 +324,39 @@ img.client-logos {
 img.client-logos-sm {
 	max-height: 2em;
 	width: auto;
+}
+
+.tm-section-home {
+	/* filter: brightness(.5);
+	"img/vineyard-g9bcead90a_1920.jpg" */
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+              url('../img/home.png') center center fixed;
+	filter: brightness(1.1);
+	background-size: cover;
+}
+
+.tm-section-services {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+	url('../img/services.png') center center fixed;
+	filter: brightness(1.1);
+	background-size: cover;
+}
+
+.tm-section-gallery {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+	url('../img/projects.png') center center fixed;
+	background-size: cover;
+}
+
+.tm-section-reviews {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+	url('../img/reviews.png') center center fixed;
+	background-size: cover;
+	filter: brightness(1.1)
+}
+
+.tm-section-contact {
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2)),
+	url('../img/contact.png') center center fixed;
+	background-size: cover;
 }
